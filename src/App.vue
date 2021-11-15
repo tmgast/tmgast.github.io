@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-fixed">
     <nav>
-      <div id="nav" class="nav-wrapper teal lighten-2">
+      <div id="nav" class="nav-wrapper cyan lighten-3">
         <ul class="left">
           <li :class="{'active': $route.path == '/'}">
             <router-link tag="a" to="/">Home</router-link>
@@ -24,6 +24,6 @@
 }
 
 li.active a {
-  background-color: rgba(0,0,0, 0.5);
+  color: white;
 }
 </style>
